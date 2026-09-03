@@ -1,7 +1,6 @@
 # Centurion
-Ingestor for live camera feed to store on AWS S3 Buckets
 
-# HikVision → AWS S3 Pipeline
+## HikVision → AWS S3 Pipeline
 
 Captures live frames or video clips from HikVision RTSP streams and uploads them to an AWS S3 bucket.
 
