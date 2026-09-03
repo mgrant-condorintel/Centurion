@@ -3,10 +3,10 @@
 # ─────────────────────────────────────────────────────────────
 
 # ── AWS ──────────────────────────────────────────────────────
-AWS_ACCESS_KEY_ID     = "YOUR_ACCESS_KEY_ID"
-AWS_SECRET_ACCESS_KEY = "YOUR_SECRET_ACCESS_KEY"
+AWS_ACCESS_KEY_ID     = "AKIAIOSFODNN7EXAMPLE"
+AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYjAwERTiU"
 AWS_REGION            = "us-east-1"
-S3_BUCKET             = "your-bucket-name"
+S3_BUCKET             = "condor-centurion-events"
 
 # S3 key prefix — footage is stored as:
 # s3://<bucket>/<S3_PREFIX>/<camera_name>/YYYY-MM-DD/HH-MM-SS.jpg
@@ -18,18 +18,18 @@ S3_PREFIX             = "hikvision-footage"
 #   rtsp://<user>:<pass>@<ip>:<port>/Streaming/Channels/<channel>
 CAMERAS = [
     {
-        "name":     "front-door",
-        "url":      "rtsp://admin:password@192.168.1.100:554/Streaming/Channels/101",
+        "name":     "I95-South-Fairfield",
+        "url":      "rtsp://condor-admin:6tfc%RDX4esz#W@89.43.73.224:554/Streaming/Channels/101",
         "enabled":  True,
     },
     {
-        "name":     "rear-entrance",
-        "url":      "rtsp://admin:password@192.168.1.101:554/Streaming/Channels/101",
+        "name":     "I95-North-Fairfield",
+        "url":      "rtsp://condor-admin:Xcvb$2356@98.73.45.128:554/Streaming/Channels/101",
         "enabled":  True,
     },
     {
         "name":     "server-room",
-        "url":      "rtsp://admin:password@192.168.1.102:554/Streaming/Channels/101",
+        "url":      "rtsp://condor-admin:nhy67ujmNHY^&UJM@192.168.1.102:554/Streaming/Channels/101",
         "enabled":  True,
     },
 ]
