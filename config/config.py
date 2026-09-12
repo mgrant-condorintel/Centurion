@@ -3,7 +3,7 @@
 # ─────────────────────────────────────────────────────────────
 
 # ── AWS ──────────────────────────────────────────────────────
-AWS_ACCESS_KEY_ID     = "AKIAIOSFODNN7EXAMPLE"
+AWS_ACCESS_KEY_ID     = "AKIAIOSFODNN74FT9MW2"
 AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYjAwERTiU"
 AWS_REGION            = "us-east-1"
 S3_BUCKET             = "condor-centurion-events"
