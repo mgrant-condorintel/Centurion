@@ -5,7 +5,7 @@
 # ── AWS ──────────────────────────────────────────────────────
 AWS_ACCESS_KEY_ID     = "AKIAIOSFODNN74FT9MW2"
 AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYjAwERTiU"
-AWS_REGION            = "us-east-1"
+AWS_REGION            = "us-east-2"
 S3_BUCKET             = "condor-centurion-events"
 
 # S3 key prefix — footage is stored as:
